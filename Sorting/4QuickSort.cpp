@@ -34,6 +34,7 @@ int partition(int A[], int low, int high)
             temp = A[i];
             A[i] = A[j];
             A[j] = temp;
+            //bikash
         }
     } while (i < j);
 
